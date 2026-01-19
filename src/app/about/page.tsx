@@ -81,7 +81,7 @@ export default function AboutSection() {
           </div>
           <div className="relative h-[380px] lg:h-auto">
             <img
-              src="./team.png"
+              src="./team2.png"
               alt="Team"
               className="w-full h-full object-cover"
             />
