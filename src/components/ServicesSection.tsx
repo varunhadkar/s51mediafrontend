@@ -96,7 +96,7 @@ export default function ServicesSection() {
               <div className="h-56 md:h-64 overflow-hidden">
                 <img
                   src={service.image}
-                  alt={service.title}
+                  alt={`Studio 51 VFX ${service.title} service`}
                   width={1000}
                   height={600}
                   className="w-full h-full object-cover"

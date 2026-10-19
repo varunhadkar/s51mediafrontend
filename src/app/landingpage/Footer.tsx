@@ -8,6 +8,7 @@ export default function Footer() {
     { name: 'Work', href: '/work' },
     { name: 'Services', href: '/services' },
     { name: 'About', href: '/about' },
+    { name: 'Security', href: '/security' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -19,7 +20,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h2 className="font-bold uppercase">
-              <img src="/logo.png" alt="Studio 51 Logo" className="w-45 h-auto" />
+              <img src="/logo.png" alt="Studio 51 VFX logo" className="w-45 h-auto" />
             </h2>
             <p className="mt-4 text-sm text-zinc-400 max-w-sm">
               Visual effects, animation, and creative technologies for film,
@@ -62,7 +63,7 @@ export default function Footer() {
               </Link>
               
               <Link
-                href="https://www.instagram.com/s51vfx/"
+                href="https://www.instagram.com/studio51vfx/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"

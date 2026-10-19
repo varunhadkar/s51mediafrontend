@@ -26,7 +26,7 @@ export default function ProjectCard({ project, onClick }: ProjectCardProps) {
       {/* Thumbnail */}
       <img
         src={project.thumbnail}
-        alt={project.title}
+        alt={`${project.title} VFX work by Studio 51 VFX`}
         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         onError={(e) => {
           e.currentTarget.src =
