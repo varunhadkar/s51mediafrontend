@@ -1,0 +1,21 @@
+// MERGE into your existing app/layout.tsx (keep your fonts, header, footer, styles).
+import type { Metadata } from "next";
+import { JsonLd, organizationSchema } from "@/components/JsonLd"; // from the first kit
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.s51media.com"),
+  // Page-level metadata comes from lib/seo.ts via buildMetadata(), so no title/description here.
+  robots: { index: true, follow: true },
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        <JsonLd data={organizationSchema} />
+        {/* your existing header, {children}, footer */}
+        {children}
+      </body>
+    </html>
+  );
+}
