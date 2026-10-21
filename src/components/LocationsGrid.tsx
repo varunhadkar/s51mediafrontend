@@ -27,10 +27,10 @@ export default function LocationsGrid() {
             key={location.name}
             className="relative h-64 group overflow-hidden cursor-pointer"
           >
-            {/* Location Image */}
+            {/* Location Image (decorative: the city name is shown as text on top) */}
             <Image
               src={location.image}
-              alt={location.name}
+              alt=""
               fill
               style={{ objectFit: 'cover' }}
               className="transition-transform duration-500 group-hover:scale-110"

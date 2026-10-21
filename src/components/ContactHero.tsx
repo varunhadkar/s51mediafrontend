@@ -19,7 +19,7 @@ export default function ContactHero() {
       >
         <Image
           src={bgImage}
-          alt="Contact Hero"
+          alt="Studio 51 VFX meeting room with a long white table and film posters on the wall"
           fill
           style={{ objectFit: 'cover' }}
           priority
@@ -43,10 +43,13 @@ export default function ContactHero() {
       <div className="relative z-20 flex items-center justify-center h-full px-6">
         <div className="text-center text-white max-w-5xl">
           <h1 className="text-xl md:text-2xl lg:text-4xl font-bold leading-tight mb-4">
+            Request a VFX quote or bid
+          </h1>
+          <p className="text-sm md:text-base lg:text-lg text-zinc-300 leading-relaxed">
             S51 Studios brings heart and depth to storytelling,
             <br />
             pushing the boundaries of technology and imagination.
-          </h1>
+          </p>
           {/* Decorative Line */}
           <div className="w-56 md:w-96 h-[2px] bg-gradient-to-r from-white to-white mx-auto mt-8" />
         </div>

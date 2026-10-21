@@ -163,7 +163,7 @@ export default function WorkSection() {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-0 mb-8 sm:mb-12 pb-6 sm:pb-8 border-b border-zinc-800">
             {/* Left: Title */}
             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white tracking-tight uppercase">
-              Featured Projects
+              Our VFX work
             </h1>
 
             {/* Right: Categories Dropdown */}
@@ -215,6 +215,13 @@ export default function WorkSection() {
               </div>
             )}
           </div>
+
+          <p className="-mt-2 sm:-mt-4 mb-8 sm:mb-12 max-w-3xl text-zinc-400 text-base md:text-lg leading-relaxed">
+            Selected, credited projects from Studio 51 VFX across film,
+            television and streaming.
+            {/* [PLACEHOLDER] Add once individual project pages exist: "Each project page explains the brief,
+                the shots we delivered, the challenges and the tools used." */}
+          </p>
         </div>
 
         {/* Content Area */}

@@ -76,8 +76,8 @@ export default function Navbar({ hidden = false }: NavbarProps) {
           className="z-50 hover:opacity-80 transition-opacity"
         >
           <img
-            src="./logo.png"
-            alt="S51 Studios"
+            src="/logo.png"
+            alt="Studio 51 VFX home"
             style={{
               height: '70px',
               width: 'auto',

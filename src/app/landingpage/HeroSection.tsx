@@ -52,6 +52,7 @@ export default function HeroSection({ onReveal }: HeroSectionProps) {
         }}
       >
         <iframe
+          title="Studio 51 VFX showreel (background video)"
           src="https://player.vimeo.com/video/1166091398?h=5afa7debca&autoplay=1&loop=1&muted=1&background=1&controls=0&title=0&byline=0&portrait=0"
           style={{
             position: 'absolute',
